@@ -55,3 +55,7 @@ https://www.cnblogs.com/yhjoker/p/10972795.html
 ```
 
 ## conda 重新安装conda。
+
+
+## 微软的一些资料
+https://microsoft.github.io/ai-edu/%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B/index.html
