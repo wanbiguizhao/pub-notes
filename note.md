@@ -59,3 +59,20 @@ https://www.cnblogs.com/yhjoker/p/10972795.html
 
 ## 微软的一些资料
 https://microsoft.github.io/ai-edu/%E5%AE%9E%E8%B7%B5%E6%A1%88%E4%BE%8B/index.html
+
+
+
+## CUDA调用的一些报错
+```
+UserWarning: CUDA initialization: CUDA unknown error - this may be due to an incorrectly set up environment, e.g. changing env variable CUDA_VISIBLE_DEVICES after program start. Setting the available devices to be zero. (Triggered internally at  ../c10/cuda/CUDAFunctions.cpp:109.)
+  return torch._C._cuda_getDeviceCount() > 0
+```
+执行：
+```
+udo rmmod nvidia_uvm
+sudo rmmod nvidia
+sudo modprobe nvidia
+sudo modprobe nvidia_uvm
+
+```
+rmmod命令用於從當前運行的內核中移除指定的內核模塊。執行rmmod指令,可刪除不需要的模塊。 应该是避免重启操作系统了。
