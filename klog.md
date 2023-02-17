@@ -46,6 +46,8 @@ CUDA_HOME="/usr/local/cuda-11.8/bin"
 
 应该是路径问题，paddle运行依赖的一些软件库一般设置在/anaconda3/envs/paddle_env/lib 既可以运行。
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/liukun/anaconda3/envs/paddle_env/lib"
+
+
 感受：以后还是尽量不要使用NVIDIA的提供的cuda toolkit。
 
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/home/liukun/anaconda3/envs/paddle_env/lib"
