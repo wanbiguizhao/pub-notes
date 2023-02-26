@@ -69,7 +69,7 @@ UserWarning: CUDA initialization: CUDA unknown error - this may be due to an inc
 ```
 执行：
 ```
-udo rmmod nvidia_uvm
+sudo rmmod nvidia_uvm
 sudo rmmod nvidia
 sudo modprobe nvidia
 sudo modprobe nvidia_uvm
