@@ -1,3 +1,6 @@
+"""
+paddle 复现的gan网络
+"""
 import argparse
 import os
 import numpy as np 
