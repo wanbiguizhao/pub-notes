@@ -30,3 +30,5 @@ opt=dict2obj(opt)
 https://zhuanlan.zhihu.com/p/436017910 bert家族介绍
 https://zhuanlan.zhihu.com/p/349732075 面向中文的bert
 https://zhuanlan.zhihu.com/p/391947160 轻量化bert的一些变种
+
+https://zhuanlan.zhihu.com/p/360982134 bert中的mask机制
