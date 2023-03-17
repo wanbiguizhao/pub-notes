@@ -12,8 +12,8 @@ adversarial_loss(discriminator(gen_imgs), valid) ，表示希望生成的数据�
         real_loss = adversarial_loss(discriminator(real_imgs), valid)
         fake_loss = adversarial_loss(discriminator(gen_imgs.detach()), fake)
 d_loss = (real_loss + fake_loss) / 2
-这部分和公式没有对应起来，尤其是最后为啥要除以2，公式上没有。
-
+这部分和公式没有对应起来，尤其是最后为啥要除以2，公式上没有对应上。
+log(D(x[i]))最大，log(1-D(G(z[i]))) 最大，可以分别是对应两项各自取最大，对应的就是loss，就是两项对应的交叉熵最小，这样就可以对应上了。
 
 
 ### paddle和pytorch的比较

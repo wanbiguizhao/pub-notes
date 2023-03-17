@@ -15,3 +15,13 @@ def dict2obj(dictObj):
     return d
 opt=dict2obj(opt)
 ’’’
+
+
+## bert 要考虑的几个问题
+- bert的轻量化
+要训练一些特定领域的bert
+### 轻量化的几个方向
+- 量化
+- 剪枝
+- 权重共享
+- 知识蒸馏
