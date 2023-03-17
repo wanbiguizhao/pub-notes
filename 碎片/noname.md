@@ -25,3 +25,8 @@ opt=dict2obj(opt)
 - 剪枝
 - 权重共享
 - 知识蒸馏
+
+### 一些参考
+https://zhuanlan.zhihu.com/p/436017910 bert家族介绍
+https://zhuanlan.zhihu.com/p/349732075 面向中文的bert
+https://zhuanlan.zhihu.com/p/391947160 轻量化bert的一些变种
