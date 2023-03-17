@@ -32,3 +32,7 @@ https://zhuanlan.zhihu.com/p/349732075 面向中文的bert
 https://zhuanlan.zhihu.com/p/391947160 轻量化bert的一些变种
 
 https://zhuanlan.zhihu.com/p/360982134 bert中的mask机制
+
+https://zhuanlan.zhihu.com/p/75893972 span mask可以用来训练自己的模型
+
+https://aistudio.baidu.com/aistudio/projectdetail/1966362?channelType=0&channel=0 抽取式问答
